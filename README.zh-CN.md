@@ -43,7 +43,7 @@
 ## 前提
 
 - iPhone Duo，系统版本兼容。
-- LiveContainer 必须使用 **iOS 27.2 SDK** 编译。官方 3.8.14 nightly 的 `DTSDKName=iphoneos27.2`；旧的 3.8.11 stable 是 26.2，拿不到 Duo 布局 trait。请使用 3.8.14 nightly 或更新的 27.2+ 构建。
+- LiveContainer 必须使用 **iOS 27.2 SDK** 编译。请使用官方 [3.8.14 nightly](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly)（`DTSDKName=iphoneos27.2`）；旧的 3.8.11 stable 是 26.2，拿不到 Duo 布局 trait。
 
 ## 安装
 

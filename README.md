@@ -43,7 +43,7 @@ No other app or app version is claimed.
 ## Requirements
 
 - iPhone Duo running a compatible iOS version.
-- LiveContainer built with the **iOS 27.2 SDK**. The official 3.8.14 nightly reports `DTSDKName=iphoneos27.2`; the older 3.8.11 stable is built with 26.2 and does not expose the Duo layout traits. Use 3.8.14 nightly or a newer 27.2+ build.
+- LiveContainer built with the **iOS 27.2 SDK**. Use the official [3.8.14 nightly](https://github.com/LiveContainer/LiveContainer/releases/tag/nightly) (`DTSDKName=iphoneos27.2`); the older 3.8.11 stable is built with 26.2 and does not expose the Duo layout traits.
 
 ## Installation
 
