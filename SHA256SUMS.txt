@@ -1,0 +1,2 @@
+ec42ef061c5f8f8840f51abd3fc18b3b0429e0db32782194da400e083856f2ac  AppAdapter-v36-adaptive.dylib
+450250bf76abd7be1bd204d68b548356add56e14407d34924940b0855feae43c  AppAdapter-v36-adaptive.zip
