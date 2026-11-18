@@ -26,7 +26,7 @@ It works at runtime; the app itself is not modified.
 - Fit the feed canvas and player controls to the inner display.
 - Compensate for the Duo's taller top and bottom safe areas.
 - Handle the app's full-screen player and rotation paths.
-- HUD with version, layout state, snapshot/copy, hide, and **竖屏 / 铺满** controls.
+- HUD with version, runtime log, refresh, copy-log, and hide; after hiding, a small **…** at the top-right restores it.
 
 ## Project status
 
@@ -51,7 +51,7 @@ No other app or app version is claimed.
 2. Download `dist/AppAdapter-v36-adaptive.zip` and unzip it.
 3. Put `AppAdapter-v36-adaptive.dylib` into LiveContainer's **Tweaks** folder (global or the app-specific folder).
 4. Open LiveContainer → **Tweaks** → **Sign** (a valid signing certificate is required).
-5. Launch 红果短剧 from LiveContainer. The HUD appears at the top. Use **隐藏** to collapse it (the small **…** restores it), and **竖屏 / 铺满** to switch the feed layout.
+5. Launch 红果短剧 from LiveContainer. The HUD appears at the top. Use **刷新 / 复制日志 / 隐藏**; after **隐藏**, only a small **…** remains at the top-right — tap it to restore.
 6. If the layout is wrong, copy the HUD text and open an issue. Do not re-sign the app itself; the tweak is signed in Tweaks.
 
 ## Builds
@@ -82,7 +82,7 @@ APP_ADAPTER_IPAD_TEST=1 ./build-app-adapter.sh
 ## Known limitations
 
 - App-specific; class names and layout can break after a 红果 update.
-- Portrait-first app: some screens may letterbox on the inner display; **铺满** can crop, while **竖屏** is clearer.
+- Portrait-first app: some screens may letterbox on the inner display; the adapter does not add a fill/portrait HUD layout switch.
 - Only tested with LiveContainer on iPhone Duo; it is not a general Duo adapter.
 - The HUD is diagnostic; hide it for daily use.
 - No guarantee for other iOS versions or device configurations.
